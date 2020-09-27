@@ -1,5 +1,4 @@
 import React from "react";
-import banner from "../images/banner-img.png";
 import "./Home.css";
 import Product from "./Product";
 

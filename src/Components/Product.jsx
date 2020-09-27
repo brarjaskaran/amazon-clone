@@ -33,7 +33,10 @@ function Product({ id, title, price, rating, image }) {
             .fill()
             .map((_) => (
               <p>
-                <StarIcon className="product__star" />
+                <StarIcon
+                  key={new Date().getUTCMilliseconds()}
+                  className="product__star"
+                />
               </p>
             ))}
         </div>
